@@ -25,11 +25,11 @@ This Zip contains total 5 apis
   - update user details: @PutMapping("/user/update/{id}") 
    
     
-- H2 database is used in media-service, user-service
-- Spring boot apis, Jpa used for Dao layer
-- No spring Security
-- For login get the user details using email and the compare the password.
-- Angular firebase database is used to store file 
+-- H2 database is used in media-service, user-service
+-- Spring boot apis, Jpa used for Dao layer
+-- No spring Security
+-- For login get the user details using email and the compare the password.
+-- Angular firebase database is used to store file 
 
  
 <h2>Angular:</h2>
