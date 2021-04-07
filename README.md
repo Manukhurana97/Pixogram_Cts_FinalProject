@@ -34,7 +34,7 @@ This Zip contains total 5 apis
  
 <h2>Angular:</h2>
 - Compoenets:
-  - account-details: to check the user details
+  -- account-details: to check the user details
   - Followers: get all Followers
   - Following: get all following
   - header: Navigation
