@@ -17,12 +17,12 @@ This Zip contains total 5 apis
  	* Like/UnLike media: @PutMapping("/media/like/{id}/{flag}")
     
 5. UserServer (Simple User details username password and email) 
- * Create User : @PostMapping("/user/create")
- * Find User by name: @GetMapping("/user/{name}") 
- * Find user by name for login: @GetMapping("/user/login/{name}") 
- * get user by id: @GetMapping("/user/id/{id}")
- * update user details: @PutMapping("/user/update/{id}") 
- -  
+  * Create User : @PostMapping("/user/create")
+  * Find User by name: @GetMapping("/user/{name}") 
+  * Find user by name for login: @GetMapping("/user/login/{name}") 
+  * get user by id: @GetMapping("/user/id/{id}")
+  * update user details: @PutMapping("/user/update/{id}") 
+   
     
 --  H2 database is used in media-service, user-service
 --  Spring boot apis, Jpa for Dao layer
