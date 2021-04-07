@@ -4,7 +4,7 @@ Angular: FrontEnd (Conpoenent, service, Routing )
 Backend: Spring Boot (Eureka server, Zull, Spring Boot Apis)
 
 
-Backend:
+<h2>Backend:</h2>
 
 This Zip contains total 5 apis
 1. Eureka server
@@ -45,7 +45,7 @@ Angular:
   - upload media: upload the image/video
 
 
-*const routes: Routes = [
+** const routes: Routes = [
 *  {path: "" , component: LoginComponent},
 *  {path: "login" , component: LoginComponent},
 *  {path: "register", component:RegisterComponent},
