@@ -29,7 +29,7 @@ This Zip contains total 5 apis
 -  - Spring boot apis, Jpa used for Dao layer
 -   - No spring Security
 -     - For login get the user details using email and the compare the password.
--      - Angular firebase database is used to store file 
+      - Angular firebase database is used to store file 
 
  
 <h2>Angular:</h2>
