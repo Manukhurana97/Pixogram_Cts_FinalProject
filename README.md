@@ -1,10 +1,11 @@
 # Pixogram_Cts_FinalProject
 
 Angular: FrontEnd (Conpoenent, service, Routing )
-Backend: Spring Boot (Eureka server, Zull, Boot Apis)
+Backend: Spring Boot (Eureka server, Zull, Spring Boot Apis)
 
 
-Backend
+Backend:
+
 This Zip contains total 5 apis
 1. Eureka server
 2. Zull Server 
@@ -17,16 +18,44 @@ This Zip contains total 5 apis
   - Like/UnLike media: @PutMapping("/media/like/{id}/{flag}")
     
 5. UserServer (Simple User details username password and email) 
-  * Create User : @PostMapping("/user/create")
-  * Find User by name: @GetMapping("/user/{name}") 
-  * Find user by name for login: @GetMapping("/user/login/{name}") 
-  * get user by id: @GetMapping("/user/id/{id}")
-  * update user details: @PutMapping("/user/update/{id}") 
+  - Create User : @PostMapping("/user/create")
+  - Find User by name: @GetMapping("/user/{name}") 
+  - Find user by name for login: @GetMapping("/user/login/{name}") 
+  - get user by id: @GetMapping("/user/id/{id}")
+  - update user details: @PutMapping("/user/update/{id}") 
    
     
 --  H2 database is used in media-service, user-service
---  Spring boot apis, Jpa for Dao layer
+--  Spring boot apis, Jpa used for Dao layer
 --  No spring Security
---  Spring email and password validation
+--  For login get the user details using email and the compare the password.
 --  Angular firebase database is used to store file 
+
  
+Angular:
+- Compoenets:
+  - account-details: to check the user details
+  - Followers: get all Followers
+  - Following: get all following
+  - header: Navigation
+  - media: get all media
+  - mediadetails: get particular details
+  - news feeds: get all the latest news like(latest followers, Recdnt like etc)
+  - Search: Search by username
+  - upload media: upload the image/video
+
+
+*const routes: Routes = [
+*  {path: "" , component: LoginComponent},
+*  {path: "login" , component: LoginComponent},
+*  {path: "register", component:RegisterComponent},
+*  {path: "uploadmedia", component:UploadMediaComponent},
+*  {path: "mediadetails", component: MediadetailComponent},
+*  {path: "newsfeed", component:NewsFeedComponent},
+*  {path: "accountdetails", component:AccountDetailsComponent},
+*  {path: "blockuser", component:BlockUserComponent},
+*  {path: "search", component: SearchComponent},
+*  {path: "mymedia", component: MyMediaComponent},
+*  {path: "header", component:HeaderComponent},
+*  {path: "following", component: FollowComponent},
+*  {path: "follower", component: FollowerComponent}
