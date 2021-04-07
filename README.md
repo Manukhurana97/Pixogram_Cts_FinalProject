@@ -27,7 +27,7 @@ This Zip contains total 5 apis
     
   -       H2 database is used in media-service, user-service
   -       Spring boot apis, Jpa used for Dao layer
-  -       No spring Security
+  -       No spring Security us used
   -       For login get the user details using email and the compare the password.
   -       Angular firebase database is used to store file 
 
