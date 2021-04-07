@@ -7,17 +7,17 @@ Backend: Spring Boot (Eureka server, Zull, Spring Boot Apis)
 <h2>Backend:</h2>
 
 This Zip contains total 5 apis
-1. Eureka server
-2. Zull Server 
-3. Following service (Simple user follower and following) 
-4. Media file server (upload file {image/video} in Angular using firebase storage and url of uploaded is passed to backend)
+1. <h4>Eureka server</h4>
+2. <h4>Zull Server </h4>
+3. <h4>Following service </h4>(Simple user follower and following) 
+4. <h4>Media file server (upload file {image/video} in Angular using firebase storage and url of uploaded is passed to backend)
   - add Media data: @PostMapping("/media/create/{userId}/{userName}")
      - required: int uid, String title, String description, String tags, String url
   - get all media of particular user: @GetMapping("/media/uid/{userId}"
   - get media data of particular ID:  @GetMapping("/media/id/{userId}")
   - Like/UnLike media: @PutMapping("/media/like/{id}/{flag}")
     
-5. UserServer (Simple User details username password and email) 
+5. <h4>UserServer </h4> (Simple User details username password and email) 
   - Create User : @PostMapping("/user/create")
   - Find User by name: @GetMapping("/user/{name}") 
   - Find user by name for login: @GetMapping("/user/login/{name}") 
@@ -32,7 +32,7 @@ This Zip contains total 5 apis
 --  Angular firebase database is used to store file 
 
  
-Angular:
+<h2>Angular:</h2>
 - Compoenets:
   - account-details: to check the user details
   - Followers: get all Followers
